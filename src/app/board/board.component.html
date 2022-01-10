@@ -1,0 +1,5 @@
+<div class="board">
+    <div *ngFor="let cell of boardCells; let i = index">
+        <app-cell [value]="cell" (click)="getCellPosition(i)" ></app-cell>
+    </div>
+</div>

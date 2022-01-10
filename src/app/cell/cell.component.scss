@@ -1,0 +1,18 @@
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .2rem solid #0A0A0A;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.4rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
+.hidden-cell {
+    background-color: #626C66;
+}

@@ -1,0 +1,8 @@
+<div class="cell" *ngIf="isVisible; else elseBlock">
+    {{value}}
+</div>
+
+<ng-template #elseBlock>
+    <div class="cell hidden-cell" (click)="showCell()">
+    </div>
+</ng-template>
